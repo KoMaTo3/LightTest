@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\zlib">
+      <UniqueIdentifier>{ab1bfd92-cb35-40c6-89cc-edd94871b5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\pnglib">
+      <UniqueIdentifier>{bc1d08ba-a233-4d41-83ba-cdaeb4ae698b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\jpeglib">
+      <UniqueIdentifier>{1592e59a-03b2-4681-8d67-bfed104db432}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\adler32.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\compress.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\crc32.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\deflate.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\gzio.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\infback.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\inffast.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\inflate.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\inftrees.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\trees.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\uncompr.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\zutil.c">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\png.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngerror.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pnggccrd.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngget.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngmem.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngpread.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngread.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngrio.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngrtran.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngrutil.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngset.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngtrans.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngvcrd.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngwio.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngwrite.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngwtran.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngwutil.c">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\cdjpeg.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcapimin.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcapistd.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jccoefct.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jccolor.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcdctmgr.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jchuff.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcinit.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcmainct.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcmarker.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcmaster.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcomapi.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcparam.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcphuff.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcprepct.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jcsample.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jctrans.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdapimin.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdapistd.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdatadst.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdatasrc.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdcoefct.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdcolor.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jddctmgr.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdhuff.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdinput.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdmainct.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdmarker.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdmaster.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdmerge.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdphuff.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdpostct.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdsample.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdtrans.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jerror.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jfdctflt.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jfdctfst.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jfdctint.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jidctflt.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jidctfst.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jidctint.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jidctred.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jmemansi.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jmemmgr.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jquant1.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jquant2.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jutils.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\rdbmp.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\rdcolmap.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\rdgif.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\rdppm.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\rdrle.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\rdswitch.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\rdtarga.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\transupp.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\wrbmp.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\wrgif.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\wrppm.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\wrrle.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\wrtarga.c">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="filemanager.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="fbo.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="imageloader.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="kangles.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="klib.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="kmath.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="kmatrix.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="kquat.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="kvector.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="lbuffer.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="lbuffercache.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="lightmap.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="lightmgr.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="lightrenderer.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="memoryreader.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="memorywriter.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderprogram.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="vertexarray.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\crc32.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\deflate.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\inffast.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\inffixed.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\inflate.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\inftrees.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\trees.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\zconf.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\zconf.in.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\zlib.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\zlib\zutil.h">
+      <Filter>Файлы исходного кода\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\png.h">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\pnglib\pngconf.h">
+      <Filter>Файлы исходного кода\pnglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\cderror.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\cdjpeg.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jchuff.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jconfig.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdct.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jdhuff.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jerror.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jinclude.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jmemsys.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jmorecfg.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jpegint.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jpeglib.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\jversion.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\opengl_minimal\opengl_minimal\opengl_minimal\jpeglib\transupp.h">
+      <Filter>Файлы исходного кода\jpeglib</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="filemanager.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="fbo.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsexternal.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="imageloader.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="kangles.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="klib.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="kmath.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="kmatrix.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="kquat.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="kvector.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="lbuffer.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="lbuffercache.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="lightmap.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="lightmgr.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="lightrenderer.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="logs.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="memoryreader.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="memorywriter.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderprogram.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="interngl.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexarray.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
